@@ -22,17 +22,4 @@ public class FileUtil {
 		path = Paths.get(pathStr + fileName);
 		Files.write(path, o.toString().getBytes());
 	}
-
-	
-	public static void main(String[] args) {
-		List<Float> list = new LinkedList<Float>();
-		list.add((float) 5);
-		list.add((float) 7.2);
-		try {
-			write(list, "D:\\desktop\\NSK\\2018NSK\\", "test.txt");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
 }
