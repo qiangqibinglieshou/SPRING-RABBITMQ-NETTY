@@ -29,11 +29,6 @@ import io.netty.channel.ChannelPipeline;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author landyChris
- * @date 2017年8月31日
- * @version 1.0
- */
 @Slf4j
 @AllArgsConstructor
 @Component
